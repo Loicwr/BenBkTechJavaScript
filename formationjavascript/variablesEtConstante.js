@@ -167,7 +167,21 @@
         if(monAge >= 18)
         {
             console.log("Vous êtes majeur !")   
-        }
-        else {
+        }    
+        else {   
             console.log("Vous êtes mineur !")
+        }
+
+        let monAge2 = 78;
+        if(monAge2 < 18)
+        {
+            console.log("Vous êtes mineur !")   
+        }    
+        else if (monAge2 >= 18 && monAge2 < 50)  
+        {   
+            console.log("Vous êtes dans la force de l'âge !")   
+        }
+        else if (monAge2 >= 50) 
+        {   
+            console.log("Vous êtes senior !")   
         }
