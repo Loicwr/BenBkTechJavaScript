@@ -108,6 +108,8 @@
 */
 
 
+/*
+
     //Les conditions : les opérateurs de comparaison sont des symboles qui permettent de comparer deux valeurs entre elles.
 
     // == : égal à
@@ -154,6 +156,7 @@
     // if (si) : permet de vérifier si une condition est vraie et d'exécuter une action en conséquence.
     // else (sinon) : permet d'exécuter une action si la condition est fausse.
     // else if (sinon si) : permet de vérifier une autre condition si la première est fausse.
+    // switch (commutateur) : permet de vérifier plusieurs conditions en même temps et d'exécuter une action en conséquence.
 
         if(9 < 5) {
             console.log("oui c'est vrai !") //si la condition est vraie, on exécute cette action
@@ -185,3 +188,31 @@
         {   
             console.log("Vous êtes senior !")   
         }
+
+        let monAge3 = 44;
+        switch(monAge3) {
+            case 17 :
+                console.log ("vous avez 17 ans !")
+                break; // on sort de la condition
+            case 45 :
+                console.log ("vous avez 45 ans !")
+                break; // on sort de la condition
+            default : // si aucune des conditions n'est vraie, on exécute cette action
+                console.log ("vous n'avez ni 17 ni 45 ans !")
+                break; // on sort de la condition
+        }
+
+*/
+
+// Exercice :  if else / condition
+
+    
+       // Petit exercice, faire une condition qui établie si un nombre est pair ou impaire ( astuce utiliser le modulo % )
+
+        let nombre = 5; // nombre à tester
+            if (nombre % 2 == 0) {  // on teste si le reste de la division par 2 est égal à 0
+                console.log("Le nombre est pair !") // si le reste de la division par 2 est égal à 0, c'est un nombre pair
+            }
+            else {
+                console.log("Le nombre est impair !")// si le reste de la division par 2 est différent de 0, c'est un nombre impair
+            };
