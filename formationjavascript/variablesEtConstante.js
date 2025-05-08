@@ -294,6 +294,9 @@
 
     let test = " ok !"; // variable pour le test
     function dire( ) { // déclaration de la fonction dire sans paramètre
+        let test2 = " ! "; // variable pour le test2
         console.log("Bonjour" + test); // on affiche "Bonjour" + test
     }
     dire(); // on appelle la fonction dire
+    console.log(test2); // on affiche test2 ( erreur car test2 est local à la fonction dire et ne peut pas être utilisé en dehors de celle-ci )
+    // console.log(test); // on affiche test ( pas d'erreur car test est global et peut être utilisé en dehors de la fonction dire )
