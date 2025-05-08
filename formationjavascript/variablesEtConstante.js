@@ -203,7 +203,7 @@
         }
 
 */
-
+/*
 // Exercice :  if else / condition
 
     
@@ -216,3 +216,4 @@
             else {
                 console.log("Le nombre est impair !")// si le reste de la division par 2 est différent de 0, c'est un nombre impair
             };
+*/
