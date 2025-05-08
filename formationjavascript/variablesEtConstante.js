@@ -217,3 +217,16 @@
                 console.log("Le nombre est impair !")// si le reste de la division par 2 est différent de 0, c'est un nombre impair
             };
 */
+
+// La différence entre undening et null est que undefined signifie qu'une variable n'a pas été initialisée, tandis que null signifie qu'une variable a été initialisée mais n'a pas de valeur.
+// null est un objet, undefined est un type de données primitif.
+// null est une valeur assignée, undefined est une valeur par défaut..
+
+    let maVariable; // undefined (non initialisée)
+        console.log(maVariable); // undefined
+
+    let maVariable2 = null; // null (initialisée mais sans valeur)
+        console.log(maVariable2); // null
+
+    console.log (undefined == null); // true (null est égal à undefined)
+    console.log (undefined === null); // false (null est strictement différent de undefined)
