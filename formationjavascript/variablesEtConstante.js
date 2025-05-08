@@ -218,6 +218,8 @@
             };
 */
 
+/*
+
 // La différence entre undening et null est que undefined signifie qu'une variable n'a pas été initialisée, tandis que null signifie qu'une variable a été initialisée mais n'a pas de valeur.
 // null est un objet, undefined est un type de données primitif.
 // null est une valeur assignée, undefined est une valeur par défaut..
@@ -230,3 +232,25 @@
 
     console.log (undefined == null); // true (null est égal à undefined)
     console.log (undefined === null); // false (null est strictement différent de undefined)
+
+*/
+
+/*
+
+// La boucle while est une structure de contrôle qui permet d'exécuter un bloc de code tant qu'une condition est vraie.
+
+    let nombre = 1; // initialisation de la variable nombre
+    while (nombre <= 100 ) { // tant que nombre est inférieur ou égal à 100
+        
+        if (nombre === 10 ){
+            break; // on sort de la boucle si nombre est égal à 10
+        }
+        console.log(nombre); // on affiche le nombre
+        nombre++; // on incrémente le nombre de 1
+        // ou nombre += 1; // on incrémente le nombre de 1
+        // ou nombre = nombre + 1; // on incrémente le nombre de 1
+    }
+    console.log("Fin de la boucle while"); // on affiche un message à la fin de la boucle
+
+*/
+
