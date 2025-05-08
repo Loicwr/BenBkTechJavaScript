@@ -279,6 +279,8 @@
 // Elles peuvent également être anonymes (sans nom) et assignées à une variable ou passées en argument à une autre fonction.
 // Elles peuvent être imbriquées (une fonction à l'intérieur d'une autre) et peuvent également être récursives (une fonction qui s'appelle elle-même).
 // Elles peuvent être utilisées pour créer des closures (une fonction qui a accès à des variables de son environnement lexical) et des callbacks (une fonction passée en argument à une autre fonction qui sera exécuter à la fin ) 
+// Quand je déclare une variable au sein d'une fonction, elle est locale à cette fonction et ne peut pas être utilisée en dehors de celle-ci. ( sauf si je la déclare avec le mot-clé var, dans ce cas elle est globale )
+// Quand je déclare une variable en dehors d'une fonction, elle est globale et peut être utilisée dans toutes les fonctions du programme. 
 
     function airCarre (coteCarre) { // déclaration de la fonction airCarre avec un paramètre coteCarre
         let air = coteCarre * coteCarre; // on calcule l'air du carré
