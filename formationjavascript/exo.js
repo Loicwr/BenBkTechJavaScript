@@ -44,3 +44,6 @@ else if (moyennes >= 10 && moyennes < 15 ){
 else if ( moyennes >= 15 && moyennes <= 20 ){
     console.log ("Très bien !")
 }
+else {
+    console.log ( "Erreur ! ")
+}
