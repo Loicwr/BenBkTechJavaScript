@@ -14,3 +14,14 @@ else  {
 let valeurCarre = 18;
 valeurCarre *= valeurCarre;
 console.log (valeurCarre);
+
+let rayonCercle = 18
+perimetre = 2 * 3.14 * rayonCercle
+if ( perimetre > 100)
+    {
+        console.log ("Le cercle a une périphérie très longue")
+    }
+else {
+        console.log (perimetre)
+}
+
