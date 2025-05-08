@@ -291,3 +291,9 @@
     let airDeMonCarre = airCarre(tarteAuCitron); // on appelle la fonction airCarre avec le côté du carré, les parenthèses serve a donner la valeur de la variable coteCarre,
                                                  // let tarteAuCitron = 4 mais si je veux je met 10 et 10 sera la valeur de coteCarre car elle appelle la fonction airCarre avec le paramètre coteCarre.
     console.log("L'air du carré est de : " + airDeMonCarre); // on affiche l'air du carré
+
+    let test = " ok !"; // variable pour le test
+    function dire( ) { // déclaration de la fonction dire sans paramètre
+        console.log("Bonjour" + test); // on affiche "Bonjour" + test
+    }
+    dire(); // on appelle la fonction dire
