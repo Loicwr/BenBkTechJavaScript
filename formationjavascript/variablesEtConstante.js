@@ -254,3 +254,38 @@
 
 */
 
+/*
+// La boucle for est une structure de contrôle qui permet d'exécuter un bloc de code un certain nombre de fois.
+// Elle est souvent utilisée pour parcourir des tableaux ou des objets.
+// La syntaxe de la boucle for est la suivante : for (initialisation; condition; incrémentation) { bloc de code à exécuter }
+// L'initialisation est exécutée une seule fois au début de la boucle.
+// La condition est vérifiée avant chaque itération de la boucle. Si elle est vraie, le bloc de code est exécuté. Si elle est fausse, la boucle s'arrête.
+// L'incrémentation est exécutée à la fin de chaque itération de la boucle.
+// Elle permet de modifier la variable d'initialisation pour passer à l'itération suivante.
+// La boucle for est souvent utilisée pour parcourir des tableaux ou des objets.
+// Elle est plus concise et plus lisible que la boucle while dans ce cas.
+
+    for (let nombre = 1 ; nombre < 10 ; nombre++) { // initialisation de la variable nombre
+        console.log(nombre); // on affiche le nombre
+    }
+
+*/
+
+// Les fonctions sont des blocs de code qui peuvent être appelés plusieurs fois dans un programme.
+// Elles permettent de regrouper des instructions et de les réutiliser facilement.
+// Elles peuvent prendre des paramètres en entrée et renvoyer une valeur en sortie.
+// Elles sont définies avec le mot-clé function, suivi du nom de la fonction, des paramètres entre parenthèses et du bloc de code entre accolades.
+// Elles peuvent être appelées en utilisant leur nom suivi de parenthèses contenant les arguments.
+// Elles peuvent également être anonymes (sans nom) et assignées à une variable ou passées en argument à une autre fonction.
+// Elles peuvent être imbriquées (une fonction à l'intérieur d'une autre) et peuvent également être récursives (une fonction qui s'appelle elle-même).
+// Elles peuvent être utilisées pour créer des closures (une fonction qui a accès à des variables de son environnement lexical) et des callbacks (une fonction passée en argument à une autre fonction qui sera exécuter à la fin ) 
+
+    function airCarre (coteCarre) { // déclaration de la fonction airCarre avec un paramètre coteCarre
+        let air = coteCarre * coteCarre; // on calcule l'air du carré
+        return air; // on renvoie l'air du carré
+    }
+
+    let tarteAuCitron = 4; // variable pour le côté du carré
+    let airDeMonCarre = airCarre(tarteAuCitron); // on appelle la fonction airCarre avec le côté du carré, les parenthèses serve a donner la valeur de la variable coteCarre,
+                                                 // let tarteAuCitron = 4 mais si je veux je met 10 et 10 sera la valeur de coteCarre car elle appelle la fonction airCarre avec le paramètre coteCarre.
+    console.log("L'air du carré est de : " + airDeMonCarre); // on affiche l'air du carré
