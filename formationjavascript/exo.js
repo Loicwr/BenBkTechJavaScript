@@ -11,18 +11,20 @@ else  {
 }
 
 
-let valeurCarre = 18;
-valeurCarre *= valeurCarre;
-console.log (valeurCarre);
+let coteCarre = 18;
+// air = valeur * valeur 
+let airCarre = coteCarre * coteCarre;
+console.log ("Air du carré est de : " + airCarre);
 
-let rayonCercle = 1
+let rayonCercle = 16
+// périmètre = 2 * 3.14 * valeur 
 let perimetre = 2 * 3.14 * rayonCercle
 if ( perimetre > 100)
     {
         console.log ("Le cercle a une périphérie très longue")
     }
 else {
-        console.log (perimetre)
+        console.log (" Le périmètre du cercle est de : " + perimetre)
 }
 
 let noteFrancais = 10;
