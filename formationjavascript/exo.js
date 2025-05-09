@@ -64,23 +64,20 @@ console.log ("L'air de mon rectangle est de :" + resultat );
 
     //périmètre d'un cercle en fonction de son diamètre
 
-function perimetreCercleDiametre ( diametre, nombrePi){
-    return circonference = nombrePi * diametre
+function perimetreCercleDiametre ( diametre){
+    return 3.14 * diametre
 };
 
-let resultat2 = perimetreCercleDiametre (5, 3.14);
+let resultat2 = perimetreCercleDiametre (4);
 console.log( "Le périmètre du cercle en fonction de son diamètre est :" + resultat2)
 
     //périmètre d'un cercle en fonction de son rayon
 
-function perimetreCercleRayon ( deux, pi, rayon ){
-    return deux * pi * rayon
+function perimetreCercleRayon ( rayon ){
+    return 3.14 * 2 * rayon
 }
 
-let deux = 2;
-let pi = 3.14;
-let rayon = 5;
-console.log ("Le périmètre du cercle en fonction de son rayon est :" + perimetreCercleRayon(2, 3.14, 5))
+console.log ("Le périmètre du cercle en fonction de son rayon est :" + perimetreCercleRayon(2))
 
 
     //
