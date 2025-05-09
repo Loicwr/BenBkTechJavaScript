@@ -82,6 +82,10 @@ let pi = 3.14;
 let rayon = 5;
 console.log ("Le périmètre du cercle en fonction de son rayon est :" + perimetreCercleRayon(2, 3.14, 5))
 
+
+    //
+
+
 function chaineDeCaractere (str){
     return str.length
 }
@@ -95,3 +99,21 @@ if (chaineDeCaractere(texte) < 10 ){
 else {
     console.log ("Faux")
 };
+
+    //créer une fonction qui renvoie le type d''une variable passée en paramètre
+
+    function obtenirType(variable) {
+        return typeof variable;
+    }
+    
+    // Exemple d'utilisation :
+    let text = "j'aime la saucisse";
+    let nombre = 42;
+    let tableau = [1, 2, 3];
+    let objet = {nom: "John", age: 30};
+    
+    console.log(obtenirType(text));    // "string"
+    console.log(obtenirType(nombre));   // "number"
+    console.log(obtenirType(tableau));  // "object" (en JavaScript, les tableaux sont des objets)
+    console.log(obtenirType(objet));    // "object"
+    
