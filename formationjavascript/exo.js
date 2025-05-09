@@ -130,7 +130,7 @@ console.log (chaineDeCaractere ("Le nombre de caractères est de"/*calcule le no
     //à partir de la largeur, longeur , profondeur et d'un nombre de pavé obtien leur volume total
 
     function volume2 (longeur, largeur ,hauteur, nombres){
-        return longeur * largeur * hauteur * nombres
+        return ( longeur * largeur * hauteur ) * nombres
     }
 
     console.log ("Le volume de mes pavés est de :" + volume2 (4, 3, 2, 2))
