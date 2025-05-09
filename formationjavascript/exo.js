@@ -116,4 +116,22 @@ else {
     console.log(obtenirType(nombre));   // "number"
     console.log(obtenirType(tableau));  // "object" (en JavaScript, les tableaux sont des objets)
     console.log(obtenirType(objet));    // "object"
+
+    //à partir du rayon d'un cercle trouve sa surface
+
+    function aireCercle(rayon2) {
+        return Math.PI * rayon2 * rayon2; // Math.PI donne la valeur de pi
+    }
     
+    let rayon2 = 5;
+    console.log("L'aire du cercle est : " + aireCercle(rayon2)); // Affichera l'aire du cercle
+    
+
+    //à partir de la largeur, longeur, profondeur d'un pavé, obtenir son volume
+
+    function volume (longeur, largeur ,hauteur){
+        return longeur * largeur * hauteur
+    }
+
+    console.log ("Le volume de mon pavé est de :" + volume (4, 3, 2))
+
