@@ -80,22 +80,17 @@ function perimetreCercleRayon ( rayon ){
 console.log ("Le périmètre du cercle en fonction de son rayon est :" + perimetreCercleRayon(2))
 
 
-    //
+    //longeur chaine de caractere
 
 
-function chaineDeCaractere (str){
-    return str.length
+function chaineDeCaractere (chaine){
+    let longeur = chaine.length     // on utilise la propriété length pour obtenir la longeur de la chaine
+    if (longeur < 10){
+        return true
+    }
+    return false
 }
-
-let texte = ("j'aime la saucisse")
-console.log (chaineDeCaractere (texte));
-
-if (chaineDeCaractere(texte) < 10 ){
-    console.log ("Vrai")
-}
-else {
-    console.log ("Faux")
-};
+console.log (chaineDeCaractere ("Le nombre de caractères est de"/*calcule le nombre de caractère présent de les ( ) */ ))
 
     //créer une fonction qui renvoie le type d''une variable passée en paramètre
 
