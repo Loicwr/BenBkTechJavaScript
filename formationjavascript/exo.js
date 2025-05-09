@@ -82,3 +82,9 @@ let pi = 3.14;
 let rayon = 5;
 console.log ("Le périmètre du cercle en fonction de son rayon est :" + perimetreCercleRayon(2, 3.14, 5))
 
+function chaineDeCaractere (str){
+    return str.length
+}
+
+let texte = ("j'aime la saucisse")
+console.log (chaineDeCaractere (texte))
