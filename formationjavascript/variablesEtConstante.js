@@ -270,6 +270,7 @@
     }
 
 */
+/*
 
 // Les fonctions sont des blocs de code qui peuvent être appelés plusieurs fois dans un programme.
 // Elles permettent de regrouper des instructions et de les réutiliser facilement.
@@ -287,7 +288,7 @@
         return air; // on renvoie l'air du carré
     }
 
-    let tarteAuCitron = 4; // variable pour le côté du carré
+    let tarteAuCitron = 4; // variable/paramètre pour le côté du carré
     let airDeMonCarre = airCarre(tarteAuCitron); // on appelle la fonction airCarre avec le côté du carré, les parenthèses serve a donner la valeur de la variable coteCarre,
                                                  // let tarteAuCitron = 4 mais si je veux je met 10 et 10 sera la valeur de coteCarre car elle appelle la fonction airCarre avec le paramètre coteCarre.
     console.log("L'air du carré est de : " + airDeMonCarre); // on affiche l'air du carré
@@ -300,3 +301,5 @@
     dire(); // on appelle la fonction dire
     console.log(test2); // on affiche test2 ( erreur car test2 est local à la fonction dire et ne peut pas être utilisé en dehors de celle-ci )
     // console.log(test); // on affiche test ( pas d'erreur car test est global et peut être utilisé en dehors de la fonction dire )
+
+*/
