@@ -87,4 +87,11 @@ function chaineDeCaractere (str){
 }
 
 let texte = ("j'aime la saucisse")
-console.log (chaineDeCaractere (texte))
+console.log (chaineDeCaractere (texte));
+
+if (chaineDeCaractere(texte) < 10 ){
+    console.log ("Vrai")
+}
+else {
+    console.log ("Faux")
+};
